@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika:700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: #f1f1f1;
+  z-index: -2;
+  position: relative;
+}
+
+.frame-img {
+  background-image: url('../assets/frame-white.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header-img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -130px;
+}
+
+.header-img {
+  z-index: -1;
+}
+
+.home-begin {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slideOutUp {
+  transform: translateY(-345px);
+}
+
+.result-page {
+  margin-top: -570px;
+}
+
+.image-index {
+  object-fit: cover;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  // background-color: transparent;
+  background-color: #f1f1f1;
+}
+
+.card-header-title {
+  font-size: 18px;
+  font-family: 'Signika', sans-serif;
+}
+
+.card-content {
+  margin-top: auto;
+}
+
+.search-result {
+  pointer-events: none;
+}
+
+.search-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  * {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+.search-block {
+  display: flex;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-item {
+  cursor: pointer;
+}
+
+.button.is-fullwidth {
+  margin-top: 20px;
+}
+
+#h1 {
+  margin-bottom: 30px;
+}
+
+// ART CARD
+.image img {
+  display: block;
+  max-height: 800px;
+  width: auto;
+}
+
+.is-horizontal-center {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.color-box {
+  height: 20px;
+  width: 20px;
+}
+
+.color-palette {
+  display: flex;
+}
+
+// Loading screen
+
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  border-radius: 100%;
+  background-color: #595959;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+.cards-visible {
+  visibility: visible;
+}
+
+.cards-hidden {
+  visibility: hidden;
+}
+
+.footer-text {
+  padding: 20px;
+  position: fixed;
+  max-height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  background-color: #f1f1f1;
+  z-index: -2;
+  a {
+    color: #595959;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.header-text {
+  padding: 12px;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px -9px rgba(179, 179, 179, 1);
+  -moz-box-shadow: 10px 10px 5px -9px rgba(179, 179, 179, 1);
+  box-shadow: 10px 10px 5px -9px rgba(179, 179, 179, 1);
+}
+
+.nothing-text {
+  margin-top: -180px;
+  margin-bottom: 180px;
+}
+
+.artist-search {
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.horizontal-info {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .header-img-container {
+    margin-top: -80px;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .header-img-container {
+    margin-top: -80px;
+  }
+  .slideOutUp {
+    transform: translateY(-290px);
+  }
+}
+@media only screen and (max-width: 888px) {
+  .header-img-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header-text {
+    font-size: medium;
+  }
+  .slideOutUp {
+    transform: translateY(-300px);
+  }
+  .result-page {
+    margin-top: -490px;
+  }
+  .search-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
