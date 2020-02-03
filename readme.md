@@ -43,7 +43,7 @@ The home page consists of the name of the website and a search bar. The user can
 
 ### 2. Show pages
 
-<img src="src/assets/art-journey-4.png" alt="Website show page" height="300"/><img src="src/assets/art-journey-3.png" alt="Website show page" height="300"/>
+<img src="src/assets/art-journey-4.png" alt="Website show page" height="300"/> <img src="src/assets/art-journey-3.png" alt="Website show page" height="300"/>
 
 The website has two different show pages, depending on the art works. If it's a horizontal work, the image will be displayed with the details underneath it. Otherwise, the image is placed next to the details. When hovering the mouse over the artwork, those parts are magnified. When known, there is also a map on this page showing where the art piece has been made. 
 
