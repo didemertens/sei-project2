@@ -52,4 +52,4 @@ The website has two different show pages, depending on the art works. If it's a 
 
 * This website uses the Rijksmuseum API, which is a Dutch museum. As a consequence, some of the titles are in Dutch instead of English. In the future, it would be a good idea to add a translation API and translate the titles before showing them on the page. 
 
-* This project had to be made within 48 hours, so there wasn't enough time to make the website fully responsive and functional on all devices. For example, the magnifying glass doesn't work on a phone. In the future, this functionality should either be changed or removed when the user is on a mobile device.
+* This project had to be made within 48 hours, so there wasn't enough time to make the website fully responsive and functional on all devices. For example, the magnifying glass makes it harder to scroll on a phone. In the future, this functionality should either be changed or removed when the user is on a mobile device.
