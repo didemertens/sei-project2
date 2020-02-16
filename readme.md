@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: Art Journey
 
-This is a website on which you can search for art, using any keyword you like (such as "blue", "beach" or "Rembrandt"). The time frame of this project was 48 hours.
+This is a website on which you can search for art, using any keyword you like (such as "blue", "beach" or "Rembrandt"). The time frame of this pair programming project was 48 hours.
 
 ## Built with
 * React
