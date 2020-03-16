@@ -27,7 +27,7 @@ The website consists of a home page, which is also the index page, with a search
 
 The home page consists of the name of the website and a search bar. The user can use a wide range of keywords, from colours to objects and places. When a user has searched for something, the data is pulled using the Rijksmuseum API. The search results appear after half of the images have loaded, showing a spinner before this has happened. Below is the function which counts the loaded images:
 
-```
+```javascript
   handleOnLoad = () => {
     this.setState({
       imageCounter: this.state.imageCounter + 1
