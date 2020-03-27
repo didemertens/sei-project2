@@ -49,10 +49,8 @@ The website has two different show pages, depending on the art works. If it's a 
 
 ## Wins and challenges
 * It was really great to be able to work together with someone on this project. Being able to discuss challenges made it a lot easier to solve bugs. It was also inspirational to see how someone else solves problems and to exchange ideas with them.
-
 * One of the challenges, which turned into  a win when we solved it, was caused by the high resolution of the images of the artworks. Because of this high resolution, it takes a while to download them. This was especially problematic on the results page as it took too much time before every work had been downloaded. This has been solved by compressing the images when pulling them for the result page, setting their size in the get request. The spinner also helps with this problem as it shows that something is happening and only disappears when half of the images have been downloaded.
 
 ## Future improvements
 * This website uses the Rijksmuseum API, which is a Dutch museum. As a consequence, some of the titles are in Dutch instead of English. In the future, it would be a good idea to add a translation API and translate the titles before showing them on the page. 
-
 * This project had to be made within 48 hours, so there wasn't enough time to make the website fully responsive and functional on all devices. For example, the magnifying glass makes it harder to scroll on a phone. I would like to improve the experience of users who are on a mobile device.
